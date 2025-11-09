@@ -8,8 +8,9 @@ interface SocialSignal {
   source: string;
   topic: string;
   velocity: number;
-  sentiment: "bullish" | "bearish" | "neutral";
-  politicianMatch?: string;
+  frequency: number; // posts per hour
+  engagement: number; // total engagement count
+  timeActive: string; // how long trending
   influenceScore: number;
 }
 
@@ -18,29 +19,32 @@ export const SocialSignalsPanel = () => {
     {
       id: "1",
       source: "Twitter",
-      topic: "Infrastructure Bill Vote",
-      velocity: 87,
-      sentiment: "bullish",
-      politicianMatch: "Sen. Warren (D-MA)",
-      influenceScore: 92,
+      topic: "Silicon Valley Bank Crisis",
+      velocity: 85.1,
+      frequency: 287,
+      engagement: 2700000,
+      timeActive: "2h",
+      influenceScore: 59,
     },
     {
-      id: "2",
-      source: "TruthSocial",
-      topic: "Federal Reserve Rate Decision",
-      velocity: 94,
-      sentiment: "bearish",
-      politicianMatch: "Former President",
-      influenceScore: 88,
-    },
-    {
-      id: "3",
+      id: "5",
       source: "Twitter",
-      topic: "Tech Regulation Hearing",
-      velocity: 76,
-      sentiment: "neutral",
-      politicianMatch: "Rep. Johnson (R-TX)",
-      influenceScore: 71,
+      topic: "Healthcare Reform",
+      velocity: 13.2,
+      frequency: 898,
+      engagement: 90100,
+      timeActive: "25h 36m",
+      influenceScore: 28,
+    },
+    {
+      id: "6",
+      source: "Twitter",
+      topic: "Pandemic Response",
+      velocity: 82.0,
+      frequency: 697,
+      engagement: 90000,
+      timeActive: "65h",
+      influenceScore: 35,
     },
   ]);
 
@@ -57,13 +61,6 @@ export const SocialSignalsPanel = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const getSentimentColor = (sentiment: string) => {
-    switch (sentiment) {
-      case "bullish": return "bg-bullish/20 text-bullish border-bullish/30";
-      case "bearish": return "bg-bearish/20 text-bearish border-bearish/30";
-      default: return "bg-neutral/20 text-neutral border-neutral/30";
-    }
-  };
 
   return (
     <Card className="p-6 border-border/50 bg-card/50 backdrop-blur">
@@ -93,15 +90,10 @@ export const SocialSignalsPanel = () => {
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-sm font-semibold">{signal.topic}</span>
-                    <Badge className={getSentimentColor(signal.sentiment)} variant="outline">
-                      {signal.sentiment.toUpperCase()}
-                    </Badge>
                   </div>
-                  {signal.politicianMatch && (
-                    <p className="text-xs text-muted-foreground">
-                      Matched: {signal.politicianMatch}
-                    </p>
-                  )}
+                  <p className="text-xs text-muted-foreground">
+                    Active for {signal.timeActive}
+                  </p>
                 </div>
                 <div className="text-right">
                   <div className="flex items-center gap-1 text-institutional">
@@ -113,6 +105,16 @@ export const SocialSignalsPanel = () => {
               </div>
 
               <div className="space-y-2">
+                <div className="grid grid-cols-2 gap-3 mb-2">
+                  <div>
+                    <p className="text-xs text-muted-foreground">Frequency</p>
+                    <p className="text-sm font-semibold">{signal.frequency} posts/hr</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-muted-foreground">Engagement</p>
+                    <p className="text-sm font-semibold">{(signal.engagement / 1000).toFixed(1)}K</p>
+                  </div>
+                </div>
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-muted-foreground">Influence Score</span>
                   <span className="font-semibold">{signal.influenceScore.toFixed(0)}/100</span>

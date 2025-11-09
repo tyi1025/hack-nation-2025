@@ -8,45 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 13% 9%;
-    --foreground: 210 40% 98%;
+    --background: 220 25% 8%;
+    --foreground: 180 100% 95%;
 
-    --card: 224 15% 12%;
-    --card-foreground: 210 40% 98%;
+    --card: 220 20% 12%;
+    --card-foreground: 180 100% 95%;
 
-    --popover: 224 15% 12%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 220 25% 10%;
+    --popover-foreground: 180 100% 95%;
 
-    --primary: 210 100% 56%;
-    --primary-foreground: 220 13% 9%;
+    --primary: 180 85% 55%;
+    --primary-foreground: 220 25% 8%;
 
-    --secondary: 217 33% 17%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 180 100% 95%;
 
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 220 20% 15%;
+    --muted-foreground: 180 20% 65%;
 
-    --accent: 210 100% 56%;
-    --accent-foreground: 220 13% 9%;
+    --accent: 180 85% 55%;
+    --accent-foreground: 220 25% 8%;
 
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 180 100% 95%;
 
-    --border: 217 33% 17%;
-    --input: 217 33% 17%;
-    --ring: 210 100% 56%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 220 25% 8%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 180 100% 95%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 18%;
+    --ring: 180 85% 55%;
 
     --radius: 0.5rem;
 
     /* Trading specific colors */
     --bullish: 142 76% 36%;
-    --bullish-foreground: 210 40% 98%;
-    --bearish: 0 72% 51%;
-    --bearish-foreground: 210 40% 98%;
+    --bullish-foreground: 180 100% 95%;
+    --bearish: 0 85% 60%;
+    --bearish-foreground: 180 100% 95%;
     --neutral: 38 92% 50%;
-    --neutral-foreground: 220 13% 9%;
-    --institutional: 210 100% 56%;
-    --institutional-foreground: 220 13% 9%;
+    --neutral-foreground: 220 25% 8%;
+    --institutional: 180 85% 55%;
+    --institutional-foreground: 220 25% 8%;
 
     /* Chart colors */
     --chart-1: 142 76% 36%;
@@ -57,22 +63,24 @@ All colors MUST be HSL.
 
     /* Gradients */
     --gradient-bullish: linear-gradient(135deg, hsl(142 76% 36% / 0.2), hsl(142 76% 36% / 0.05));
-    --gradient-bearish: linear-gradient(135deg, hsl(0 72% 51% / 0.2), hsl(0 72% 51% / 0.05));
+    --gradient-bearish: linear-gradient(135deg, hsl(0 85% 60% / 0.2), hsl(0 85% 60% / 0.05));
     --gradient-neutral: linear-gradient(135deg, hsl(38 92% 50% / 0.2), hsl(38 92% 50% / 0.05));
+    --gradient-primary: linear-gradient(135deg, hsl(180 85% 55% / 0.2), hsl(180 85% 55% / 0.05));
 
     /* Shadows */
-    --shadow-elevated: 0 4px 24px -2px hsl(220 13% 4% / 0.4);
+    --shadow-elevated: 0 4px 24px -2px hsl(220 25% 4% / 0.5);
     --shadow-glow-bullish: 0 0 20px hsl(142 76% 36% / 0.3);
-    --shadow-glow-bearish: 0 0 20px hsl(0 72% 51% / 0.3);
+    --shadow-glow-bearish: 0 0 20px hsl(0 85% 60% / 0.3);
+    --shadow-glow-primary: 0 0 20px hsl(180 85% 55% / 0.2);
 
-    --sidebar-background: 224 15% 12%;
-    --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 210 100% 56%;
-    --sidebar-primary-foreground: 220 13% 9%;
-    --sidebar-accent: 217 33% 17%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 217 33% 17%;
-    --sidebar-ring: 210 100% 56%;
+    --sidebar-background: 220 20% 12%;
+    --sidebar-foreground: 180 100% 95%;
+    --sidebar-primary: 180 85% 55%;
+    --sidebar-primary-foreground: 220 25% 8%;
+    --sidebar-accent: 220 20% 18%;
+    --sidebar-accent-foreground: 180 100% 95%;
+    --sidebar-border: 220 20% 20%;
+    --sidebar-ring: 180 85% 55%;
   }
 }
 

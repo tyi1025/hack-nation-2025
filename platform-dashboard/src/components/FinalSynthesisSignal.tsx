@@ -17,8 +17,8 @@ export const FinalSynthesisSignal = () => {
     direction: "sell",
     confidence: 87,
     vixConfirmation: true,
-    signalType: "High Conviction Shock Event",
-    reasoning: "Social signals indicate crash risk. VIX is low (complacent market). Historical precedent: 2018 tariff shock in low-VIX environment resulted in -5.2% drop.",
+    signalType: "High Conviction Crash Event - Financial Sector",
+    reasoning: "Silicon Valley Bank Crisis signals imminent financial sector crash. Our analysis indicates selling financial stocks immediately. Social signals show 85.1% velocity with 2.7M engagement. Historical pattern: SVB collapse (Mar 2023) resulted in -20% sector drop. Recommendation: SELL FINANCIAL STOCKS.",
   });
 
   useEffect(() => {
@@ -86,6 +86,12 @@ export const FinalSynthesisSignal = () => {
                   {signal.direction}
                 </p>
               </div>
+            </div>
+            <div className="mt-4 p-3 rounded-lg bg-bearish/20 border border-bearish/50">
+              <p className="text-xs text-muted-foreground mb-1">Target Sector</p>
+              <p className="text-xl font-bold text-bearish uppercase">
+                FINANCIAL STOCKS
+              </p>
             </div>
           </div>
 
