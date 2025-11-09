@@ -1,0 +1,4 @@
+project_id = "xxcahcfbcesoezxjxlen"
+
+[functions.seed-trend-data]
+verify_jwt = false

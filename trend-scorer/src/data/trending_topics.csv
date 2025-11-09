@@ -1,0 +1,9 @@
+id;topic_name;topic_keywords;first_detected_at;last_updated_at;total_posts;unique_authors;aggregate_velocity_score;total_views;total_reposts;total_replies;platforms;status
+4de46f8c-9946-4c09-aeba-0a6402f334ac;Fed Emergency Rate Discussion;"[""The Fed"",""interest rates"",""emergency""]";2025-11-08 22:27:24.381202+00;2025-11-08 22:27:24.381202+00;0;0;0;0;0;0;[];hot
+567e13cb-9b38-4084-956d-4fa07d32bc2b;New Tariff Executive Order;"[""executive order"",""tariffs"",""trade war""]";2025-11-08 22:27:24.381202+00;2025-11-08 22:27:24.381202+00;0;0;0;0;0;0;[];rising
+bef2a253-782f-4435-b482-35b344023812;Geopolitical Sanctions Escalation;"[""sanctions"",""embargo"",""military action""]";2025-11-08 22:27:24.381202+00;2025-11-08 22:27:24.381202+00;0;0;0;0;0;0;[];critical
+69b8191e-47a2-43bf-9882-70760c113a5f;AI Regulations in Europe;"[""AI"",""regulation"",""EU"",""policy""]";2025-11-08 20:36:18.310583+00;2025-11-08 22:36:18.310583+00;45;28;5200;125000;3400;890;"[""twitter"",""reddit""]";critical
+879fb6f5-7fd9-4eb3-bb9c-e22169d6cb34;Sustainable Fashion Trends;"[""sustainability"",""fashion"",""eco-friendly""]";2025-11-08 18:36:18.310583+00;2025-11-08 22:36:18.310583+00;32;19;2300;68000;1200;450;"[""instagram"",""twitter""]";hot
+d86e3680-0ffb-4cf3-889e-df01110af1ae;Remote Work Tools 2025;"[""remote work"",""productivity"",""tools""]";2025-11-08 16:36:18.310583+00;2025-11-08 22:36:18.310583+00;28;15;1800;42000;890;320;"[""linkedin"",""twitter""]";rising
+cfa8761e-cda1-40d9-82b6-a3815293b90f;Plant-Based Protein Innovations;"[""plant-based"",""protein"",""nutrition""]";2025-11-08 14:36:18.310583+00;2025-11-08 22:36:18.310583+00;19;12;650;28000;520;180;"[""reddit"",""twitter""]";emerging
+d6cdfb09-011f-49ef-97d2-dbd375cc75bd;Quantum Computing Breakthrough;"[""quantum"",""computing"",""technology""]";2025-11-08 19:36:18.310583+00;2025-11-08 22:36:18.310583+00;38;22;3100;95000;2100;680;"[""twitter"",""reddit""]";hot
