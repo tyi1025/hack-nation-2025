@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 13% 9%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 15% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 15% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 100% 56%;
+    --primary-foreground: 220 13% 9%;
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 210 100% 56%;
+    --accent-foreground: 220 13% 9%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 210 100% 56%;
+
+    --radius: 0.5rem;
+
+    /* Trading specific colors */
+    --bullish: 142 76% 36%;
+    --bullish-foreground: 210 40% 98%;
+    --bearish: 0 72% 51%;
+    --bearish-foreground: 210 40% 98%;
+    --neutral: 38 92% 50%;
+    --neutral-foreground: 220 13% 9%;
+    --institutional: 210 100% 56%;
+    --institutional-foreground: 220 13% 9%;
+
+    /* Chart colors */
+    --chart-1: 142 76% 36%;
+    --chart-2: 0 72% 51%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 210 100% 56%;
+    --chart-5: 280 65% 60%;
+
+    /* Gradients */
+    --gradient-bullish: linear-gradient(135deg, hsl(142 76% 36% / 0.2), hsl(142 76% 36% / 0.05));
+    --gradient-bearish: linear-gradient(135deg, hsl(0 72% 51% / 0.2), hsl(0 72% 51% / 0.05));
+    --gradient-neutral: linear-gradient(135deg, hsl(38 92% 50% / 0.2), hsl(38 92% 50% / 0.05));
+
+    /* Shadows */
+    --shadow-elevated: 0 4px 24px -2px hsl(220 13% 4% / 0.4);
+    --shadow-glow-bullish: 0 0 20px hsl(142 76% 36% / 0.3);
+    --shadow-glow-bearish: 0 0 20px hsl(0 72% 51% / 0.3);
+
+    --sidebar-background: 224 15% 12%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 210 100% 56%;
+    --sidebar-primary-foreground: 220 13% 9%;
+    --sidebar-accent: 217 33% 17%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217 33% 17%;
+    --sidebar-ring: 210 100% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

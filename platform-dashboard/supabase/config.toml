@@ -1,0 +1,4 @@
+project_id = "dypsbzfefrrmxdvkwisb"
+
+[functions.fetch-vix-data]
+verify_jwt = false
