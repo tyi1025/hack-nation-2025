@@ -1,0 +1,41 @@
+Date,Event,Industry/Sector,Type,Market Change %,Industry Specifics
+2000-03-10,Dot-com Bubble Peak,Technology,Boom,+400,NASDAQ Composite index rise from 1995-2000
+2000-03-11,Dot-com Bubble Burst Begins,Technology,Crash,-76.81,NASDAQ decline through October 2002
+2002-10-04,Dot-com Bubble Bottom,Technology,Crash,-80,NASDAQ lost 80% from peak; many dot-coms bankrupt
+2008-03-16,Bear Stearns Collapse,Banking/Financial,Crash,-94,Stock fell from $170 to $10 per share; acquired by JPMorgan
+2008-09-15,Lehman Brothers Bankruptcy,Banking/Financial,Crash,-93,Final day stock decline; largest bankruptcy in US history with $619B debt
+2008-09-15,Post-Lehman Market Drop,General Market,Crash,-4.5,Dow Jones single day drop; largest decline since 9/11
+2008-09,Financial Crisis Peak Impact,Banking/Financial,Crash,-57,Financial sector index decline from peak
+2008-07,Oil Price Peak,Energy,Boom,+250,WTI crude reached $147.27 per barrel all-time high
+2008-12,Oil Price Crash,Energy,Crash,-76,Oil fell to $35 from $147 peak
+2009-03,Financial Crisis Bottom,General Market,Crash,-57,S&P 500 decline from October 2007 peak
+2009-03,Biotech Crisis Impact,Biotechnology/Pharma,Crash,-50,120 biotech/pharma companies announced restructuring or bankruptcy
+2014-06,Oil Price Peak (Pre-Crash),Energy,Boom,+300,Oil prices stabilized around $100+ per barrel for 4 years
+2016-01,Oil Price Crash Bottom,Energy,Crash,-78,Oil fell to $22.48 from $140.73; oversupply from US shale boom
+2020-02-19,Pre-COVID Market Peak,General Market,Boom,+300,All-time highs across major indices after decade-long bull market
+2020-03-09,Black Monday I (COVID-19),General Market,Crash,-7.79,Dow Jones dropped 2,014 points
+2020-03-12,Black Thursday (COVID-19),General Market,Crash,-9.9,Dow Jones dropped 2,352 points; trading halted
+2020-03-16,Black Monday II (COVID-19),General Market,Crash,-12.9,Dow Jones dropped 3,000 points
+2020-03-23,COVID-19 Crash Bottom,General Market,Crash,-37,Dow Jones total decline from February peak
+2020-03-23,COVID-19 Crash Bottom,General Market,Crash,-34,S&P 500 total decline from February peak
+2020-03,Energy Sector COVID Crash,Energy,Crash,-56,Energy stocks fell to 44% of February 2020 level
+2020-04-20,Oil Price Crash (COVID),Energy,Crash,-100,WTI futures briefly went negative for first time in history
+2020-03,Petroleum Sector Crash,Petroleum,Crash,-60,Crude petroleum stocks experienced single day 60% declines
+2020-03,Real Estate Sector Crash,Real Estate,Crash,-60,REITs and real estate stocks single day declines
+2020-03,Entertainment Sector Crash,Entertainment,Crash,-60,Theme parks, cruise lines, movie theaters heavily impacted
+2020-03,Hospitality Sector Crash,Hospitality,Crash,-60,Hotels, restaurants, travel companies single day declines
+2020-03,Healthcare Sector Performance,Healthcare,Boom,+20,Healthcare stocks gained during pandemic; hospitals and pharma demand
+2020-03,Natural Gas Sector Performance,Natural Gas,Boom,+17,Natural gas producers gained as oil production decreased
+2020-03,Food Sector Performance,Food,Boom,+20,Grocery and food stocks gained; panic buying and stockpiling
+2020-03,Software Sector Performance,Software,Boom,+15,Software companies benefited from work-from-home shift
+2020-11,COVID Recovery Complete,General Market,Boom,+50,Market indices returned to January 2020 levels
+2021-02,Biotech Sector Peak,Biotechnology,Boom,+250,XBI Biotech ETF reached $166.78 per share; mRNA vaccine success
+2021-H1,Biotech IPO Boom,Biotechnology,Boom,+300,Record 129 companies added to NASDAQ Biotech Index; 66% in early-stage
+2022-08,Biotech Sector Crash,Biotechnology,Crash,-62,XBI fell from $166.78 to $63.42; rising interest rates impact
+2022,Biotech Market Downturn,Biotechnology,Crash,-80,Only $5.9B raised in IPOs vs $30.8B in 2020
+2023,Biotech Continued Decline,Biotechnology,Crash,-85,Only $4.4B raised in IPOs; companies exhausting cash runways
+2023,Biotech Fund Outflows,Biotechnology,Crash,-50,Net $16B outflows from biotech funds; 36 of 45 weeks negative
+2024-Q1,Information Technology Recovery,Technology,Boom,+33,Tech stocks at 133% of pre-COVID levels; AI boom driving growth
+2024-Q1,Consumer Discretionary Recovery,Consumer Discretionary,Boom,+30,Consumer discretionary at 130% of pre-COVID levels
+2024-Q1,Biotech IPO Recovery Signs,Biotechnology,Boom,+500,Q1 2024 raised $3.72B, 6x higher than Q4 2023
+2024,Biotech Fund Outflows Continue,Biotechnology,Crash,-40,Net $12.7B outflows; 42 of 52 weeks negative flows
